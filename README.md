@@ -59,10 +59,15 @@ Features of student's are
 21. freetime - free time after school (numeric: from 1 - very low to 5 - very high)
 22. health - current health status (numeric: from 1 - very bad to 5 - very good)
 23. absences - number of school absences (numeric: from 0 to 93)
+24. G1 - marks scored in the first term (0 to 20)
+25. G2 - marks scored in the second term (0 to 20)
 ```
-## Demo
+## Working Demo
 
 
-https://user-images.githubusercontent.com/50453172/215263224-6cd487ee-6936-4eb7-9c3d-09fa2cfdcdde.mp4
+
+https://user-images.githubusercontent.com/50453172/215263423-5b443617-1fd7-428d-ae8b-dbe4b74f4c48.mp4
+
+
 
 
