@@ -27,8 +27,7 @@ Features of student's are
 2. Can see a list of top performing student's in the class
 
 ## Implementation
-- The frontend was implemented using React.js, which allowed  
-for a responsive and user-friendly interface. The application can retrieve student data, predictions and display them to the teacher in an easy-to-understand format. 
+- The frontend was implemented using React.js, which allowed for a responsive and user-friendly interface. The application can retrieve student data, predictions and display them to the teacher in an easy-to-understand format. 
 - The backend was built using SpringBoot with dependencies fulfilled by Maven. Spring Security ensured secure logins and robust authentication system. MongoDB was integrated to handle student data storage. It is a medium between frontend and ML Model and fetches the predictions from the machine learning model through an API and stores it in Database. 
 - The model was trained on a dataset that included past performance, demographic, and social data for a group of students. The model was able to achieve an accuracy of 94% on the test set, and was able to correctly identify students who were at risk of performance issues. The  ML Model is exposed using an API.
 
@@ -63,15 +62,5 @@ for a responsive and user-friendly interface. The application can retrieve stude
 ```
 ## Demo
 
- 
- 
-
-
-
-https://user-images.githubusercontent.com/69432514/215261044-0e93be8b-2f24-4854-8fb2-837b3d76c921.mp4
-
-
-
-
-https://user-images.githubusercontent.com/69432514/215261013-f8d6aa49-c4d3-4958-9845-bd790274ea71.mp4
+[![smartroom thumbnail](https://user-images.githubusercontent.com/69432514/215261627-959d9e28-14a4-4bc3-82b2-7e561ad0d2ac.png)](https://youtu.be/NdkzRH_LcMg "smartroom")
 
