@@ -62,5 +62,7 @@ Features of student's are
 ```
 ## Demo
 
-[![smartroom thumbnail](https://user-images.githubusercontent.com/69432514/215261627-959d9e28-14a4-4bc3-82b2-7e561ad0d2ac.png)](https://youtu.be/NdkzRH_LcMg "smartroom")
+
+https://user-images.githubusercontent.com/50453172/215263224-6cd487ee-6936-4eb7-9c3d-09fa2cfdcdde.mp4
+
 
