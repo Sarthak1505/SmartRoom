@@ -10,7 +10,8 @@ This parameters required in the prediction is not restricted to the class perfor
 - Spring Security
 - MongoDB
 - Python
-- Fast Api
+- Scikit-Learn
+- Fast API
 - Docker
 
 ## Features
