@@ -1,6 +1,5 @@
 # SmartRoom
-It is a web application which aims to provide a better monitoring and predicting student's performance in upcoming examinations using machine learning model.
-This parameters required in the prediction is not restricted to the class performance only but also consider various factors which directly or indirectly can affect the student's performance. 
+It is a web application which provides the teacher a bird’s eye view of the class with insights about students who actually need attention. This application uses a prediction model to predict future scores for each student based on not only past performance but also various socio-demographic factors to alert the teacher beforehand so measures can be taken in real time.
 
 ## Tools And Technology
 - JavaScript
@@ -13,24 +12,25 @@ This parameters required in the prediction is not restricted to the class perfor
 - Scikit-Learn
 - Fast API
 - Docker
+- Gunicorn - Uvicorn
 
 ## Features
-The user's of this application are teacher and student.
-Features of teacher's are
-1. Can monitor the student's performance prediction.
-2. Can provide the student's parameters and data.
-3. Can see visual representation of student predicted marks.
-4. Can notify student's through email whenever predicted score is low.
-5. Can see a list of weak performing student's in the class
+The users of this application are teacher and student.
+Features of teacher's are:
+1. Monitor the student's performance prediction.
+2. Provide the student's parameters and data.
+3. See visual representation of student predicted marks.
+4. Notify student's through email whenever predicted score is low.
+5. See a list of weak performing student's in the class
 
-Features of student's are
-1. Can see visual representation of their scores and predicted result
-2. Can see a list of top performing student's in the class
+Features of student's are:
+1. See visual representation of their scores and predicted result
+2. See a list of top performing student's in the class
 
 ## Implementation
-- The frontend was implemented using React.js, which allowed for a responsive and user-friendly interface. The application can retrieve student data, predictions and display them to the teacher in an easy-to-understand format. 
-- The backend was built using SpringBoot with dependencies fulfilled by Maven. Spring Security ensured secure logins and robust authentication system. MongoDB was integrated to handle student data storage. It is a medium between frontend and ML Model and fetches the predictions from the machine learning model through an API and stores it in Database. 
-- The model was trained on a dataset that included past performance, demographic, and social data for a group of students. The model was able to achieve an accuracy of 94% on the test set, and was able to correctly identify students who were at risk of performance issues. The  ML Model is exposed using an API.
+- The frontend was implemented using React.js, which allowed for a responsive and user-friendly interface. The application can retrieve student data, predictions and display them to the teacher using visualizations. 
+- The backend was built using SpringBoot with dependencies fulfilled by Maven. Spring Security ensured secure logins and robust authentication system. MongoDB was integrated to handle student data storage. It is a medium between frontend and ML Model and fetches the predictions from the machine learning model through APIs and stores it in Database. 
+- The Machine Learning model was built in Python and trained using RandomForestRegressor. The model was trained on a dataset that included past performance, demographic, and social data for a group of students. The model was able to achieve an R2 score of 94% on test set, and was able to correctly predict future score within an error range of 1 mark out of 20 marks. The  ML Model is exposed using FastAPI with Pydantic handling the requests and JSON data and Uvicorn runs the webserver.
 
 
 
@@ -62,6 +62,7 @@ Features of student's are
 23. absences - number of school absences (numeric: from 0 to 93)
 24. G1 - marks scored in the first term (0 to 20)
 25. G2 - marks scored in the second term (0 to 20)
+26. G3 - marks scored in the third term (0 to 20)
 ```
 ## Working Demo
 
